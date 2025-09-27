@@ -1,5 +1,27 @@
-# MCP Server Starter (TypeScript)
+# MCP Server in Typescript
+To realize the MCP server has been used an useful template https://github.com/alexanderop/mcp-server-starter-ts.
 
+The MCP server exend the base resources by adding a prompt, resource and tool based from the article https://medium.com/@aparna_prasad/build-your-first-mcp-server-in-typescript-with-code-02af89ef2a5f
+
+The purpose of this repository is just to get started with knowledge about MCP server with a practical activity
+
+## What is available
+
+| Kind | Name | Description |
+|----------|-------------|---------|
+| `RESOURCE` | System information | Provide information about system as JSON |
+| `RESOURCE` | Unix timestamp | Provide Unix timestamp as JSON |
+| `RESOURCE` | ISO 8601 format | Provide Unix timestamp in the ISO 8601 format |
+| `RESOURCE` | Crypto All | Get top 100 cryptocurrencies by market cap from CoinGecko API |
+| `PROMPT` | Code Analyzer | Analyze code for security, performance, style issues, and bugs|
+| `PROMPT` | Generate Readme | Generate a README file for a project |
+| `PROMPT` | Crypto Market summary | Summarize top cryptocurrencies or biggest movers |
+| `TOOL` | Echo | Return what is typed as input |
+| `TOOL` | Get bitcoin details | Get current Bitcoin market data and statistics from CoinGecko API|
+| `TOOL` | Get Crypto by Name | Search for cryptocurrency data by name or symbol|
+
+
+## Reference - Template scaffold
 <div align="center">
 
 [![MCP](https://img.shields.io/badge/MCP-v1.17.2-blue)](https://modelcontextprotocol.io)
